@@ -1,0 +1,2 @@
+
+060f51d216dba99eb4dba2cf0855d908fca6fc2b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@ioredis/commands/-/commands-1.5.1.tgz","integrity":null,"time":1777735741761,"size":"0","metadata":{"time":1777735741761,"url":"http://registry.npmjs.org/@ioredis/commands/-/commands-1.5.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:28:59 GMT","location":"https://registry.npmjs.org/@ioredis/commands/-/commands-1.5.1.tgz"},"options":{"compress":true},"status":301}}

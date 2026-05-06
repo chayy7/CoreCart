@@ -1,0 +1,2 @@
+
+3dbfe2e958a76093f2f499cda90d86135e16b294	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/y18n","integrity":null,"time":1777737681409,"size":"0","metadata":{"time":1777737681409,"url":"http://registry.npmjs.org/y18n","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 16:01:19 GMT","location":"https://registry.npmjs.org/y18n"},"options":{"compress":true},"status":301}}

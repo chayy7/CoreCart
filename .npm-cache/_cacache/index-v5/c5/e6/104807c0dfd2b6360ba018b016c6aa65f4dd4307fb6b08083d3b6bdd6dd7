@@ -1,0 +1,2 @@
+
+7651d44d9c80850c115b6f32bdd149ac90120196	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/cliui","integrity":null,"time":1777737681408,"size":"0","metadata":{"time":1777737681408,"url":"http://registry.npmjs.org/cliui","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 16:01:19 GMT","location":"https://registry.npmjs.org/cliui"},"options":{"compress":true},"status":301}}

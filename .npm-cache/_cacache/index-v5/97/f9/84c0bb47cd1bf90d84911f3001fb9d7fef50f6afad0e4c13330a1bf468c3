@@ -1,0 +1,2 @@
+
+1e398579d8ab2584ecfa07937df8a7f0e80f26fc	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/redis-parser/-/redis-parser-3.0.0.tgz","integrity":null,"time":1777735741741,"size":"0","metadata":{"time":1777735741741,"url":"http://registry.npmjs.org/redis-parser/-/redis-parser-3.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:28:59 GMT","location":"https://registry.npmjs.org/redis-parser/-/redis-parser-3.0.0.tgz"},"options":{"compress":true},"status":301}}

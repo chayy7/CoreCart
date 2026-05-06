@@ -1,0 +1,2 @@
+
+b2f4fe9fc462c446ecd402688e0534d17c481fd8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/semver/-/semver-6.3.1.tgz","integrity":null,"time":1777735742587,"size":"0","metadata":{"time":1777735742587,"url":"http://registry.npmjs.org/semver/-/semver-6.3.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:29:00 GMT","location":"https://registry.npmjs.org/semver/-/semver-6.3.1.tgz"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+6d122601181a5de6579e3cacceb34057190116fd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz","integrity":null,"time":1777735743925,"size":"0","metadata":{"time":1777735743925,"url":"http://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:29:02 GMT","location":"https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz"},"options":{"compress":true},"status":301}}

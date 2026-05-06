@@ -1,0 +1,2 @@
+
+ff3dc55a318f61884d8a1ea24f58153bb0ce3633	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/yargs","integrity":null,"time":1777737680999,"size":"0","metadata":{"time":1777737680999,"url":"http://registry.npmjs.org/yargs","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 16:01:19 GMT","location":"https://registry.npmjs.org/yargs"},"options":{"compress":true},"status":301}}

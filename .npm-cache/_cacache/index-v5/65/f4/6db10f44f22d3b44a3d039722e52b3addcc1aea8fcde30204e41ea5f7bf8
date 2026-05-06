@@ -1,0 +1,2 @@
+
+a77ed398dfc43508880a7a5e8926efda5bb6df0a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/emoji-regex","integrity":null,"time":1777737681936,"size":"0","metadata":{"time":1777737681935,"url":"http://registry.npmjs.org/emoji-regex","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 16:01:20 GMT","location":"https://registry.npmjs.org/emoji-regex"},"options":{"compress":true},"status":301}}

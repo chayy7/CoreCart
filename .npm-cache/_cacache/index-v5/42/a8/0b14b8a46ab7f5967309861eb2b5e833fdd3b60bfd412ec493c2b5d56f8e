@@ -1,0 +1,2 @@
+
+cd99baf12d4a78c4994fc50fd7990bc14b44cf2a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ansi-regex","integrity":null,"time":1777737682061,"size":"0","metadata":{"time":1777737682061,"url":"http://registry.npmjs.org/ansi-regex","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 16:01:20 GMT","location":"https://registry.npmjs.org/ansi-regex"},"options":{"compress":true},"status":301}}

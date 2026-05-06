@@ -1,0 +1,2 @@
+
+316844bc9e2efc6778faa479dabd789ac0a88cd2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz","integrity":null,"time":1777735742479,"size":"0","metadata":{"time":1777735742479,"url":"http://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:29:00 GMT","location":"https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz"},"options":{"compress":true},"status":301}}

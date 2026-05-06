@@ -1,0 +1,2 @@
+
+7fa55c284d1654f0ebdb3845a4bc258d89bb091b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz","integrity":null,"time":1777735742348,"size":"0","metadata":{"time":1777735742348,"url":"http://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:29:00 GMT","location":"https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"},"options":{"compress":true},"status":301}}

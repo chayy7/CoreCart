@@ -1,0 +1,2 @@
+
+80d3ce1d4e8d0e15159bdf8e48e35503146dee16	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/has-flag","integrity":null,"time":1777737681408,"size":"0","metadata":{"time":1777737681408,"url":"http://registry.npmjs.org/has-flag","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 16:01:19 GMT","location":"https://registry.npmjs.org/has-flag"},"options":{"compress":true},"status":301}}

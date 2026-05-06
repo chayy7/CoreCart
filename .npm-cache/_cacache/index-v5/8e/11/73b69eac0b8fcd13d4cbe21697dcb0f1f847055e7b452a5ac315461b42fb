@@ -1,0 +1,2 @@
+
+82ad64c3372bfb502ee76b6f5ba0ae70d009227d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz","integrity":null,"time":1777735741678,"size":"0","metadata":{"time":1777735741678,"url":"http://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:28:59 GMT","location":"https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"},"options":{"compress":true},"status":301}}

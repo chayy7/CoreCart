@@ -1,0 +1,2 @@
+
+17eb604f17291b0d771f65b7ff0e6cf3f729d0bc	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mime/-/mime-2.6.0.tgz","integrity":null,"time":1777735741106,"size":"0","metadata":{"time":1777735741105,"url":"http://registry.npmjs.org/mime/-/mime-2.6.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:28:59 GMT","location":"https://registry.npmjs.org/mime/-/mime-2.6.0.tgz"},"options":{"compress":true},"status":301}}

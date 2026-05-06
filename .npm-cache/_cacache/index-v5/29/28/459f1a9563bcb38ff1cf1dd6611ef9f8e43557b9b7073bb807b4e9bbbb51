@@ -1,0 +1,2 @@
+
+c71d37efe7ac2efd1809a809cdc6b77571210008	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/jsonwebtoken/-/jsonwebtoken-9.0.10.tgz","integrity":null,"time":1777735743665,"size":"0","metadata":{"time":1777735743665,"url":"http://registry.npmjs.org/@types/jsonwebtoken/-/jsonwebtoken-9.0.10.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:29:01 GMT","location":"https://registry.npmjs.org/@types/jsonwebtoken/-/jsonwebtoken-9.0.10.tgz"},"options":{"compress":true},"status":301}}

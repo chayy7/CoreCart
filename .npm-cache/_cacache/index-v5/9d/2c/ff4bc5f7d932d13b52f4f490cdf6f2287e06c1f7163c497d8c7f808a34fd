@@ -1,0 +1,2 @@
+
+a16f584578b772c85351d7754b41ece1eeef6c20	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ioredis/-/ioredis-5.10.1.tgz","integrity":null,"time":1777735743655,"size":"0","metadata":{"time":1777735743655,"url":"http://registry.npmjs.org/ioredis/-/ioredis-5.10.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:29:01 GMT","location":"https://registry.npmjs.org/ioredis/-/ioredis-5.10.1.tgz"},"options":{"compress":true},"status":301}}

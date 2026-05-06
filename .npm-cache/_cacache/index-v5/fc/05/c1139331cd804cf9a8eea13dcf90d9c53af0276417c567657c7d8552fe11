@@ -1,0 +1,2 @@
+
+17bef0d1fdd01b35f48f176c26eb7e6f530398a5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz","integrity":null,"time":1777735741257,"size":"0","metadata":{"time":1777735741257,"url":"http://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:28:59 GMT","location":"https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz"},"options":{"compress":true},"status":301}}

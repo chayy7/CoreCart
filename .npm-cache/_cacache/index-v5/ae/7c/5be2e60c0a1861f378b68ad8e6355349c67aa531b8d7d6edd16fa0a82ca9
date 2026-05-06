@@ -1,0 +1,2 @@
+
+22b97a9d47c32cd9d77bb4d74893db3abeded4bb	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/once/-/once-1.4.0.tgz","integrity":null,"time":1777735741997,"size":"0","metadata":{"time":1777735741997,"url":"http://registry.npmjs.org/once/-/once-1.4.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:29:00 GMT","location":"https://registry.npmjs.org/once/-/once-1.4.0.tgz"},"options":{"compress":true},"status":301}}

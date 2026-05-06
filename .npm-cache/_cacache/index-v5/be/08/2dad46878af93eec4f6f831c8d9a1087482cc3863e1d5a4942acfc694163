@@ -1,0 +1,2 @@
+
+98e5212f30024c12c444ae2287f77838ac8c24cb	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz","integrity":null,"time":1777735743030,"size":"0","metadata":{"time":1777735743030,"url":"http://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 02 May 2026 15:29:01 GMT","location":"https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz"},"options":{"compress":true},"status":301}}
