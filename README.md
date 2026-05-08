@@ -100,4 +100,3 @@ npm run seed
 - For standalone local MongoDB, keep `ENABLE_TRANSACTIONS=false`.
 - For replica-set MongoDB (cloud/prod), set `ENABLE_TRANSACTIONS=true`.
 - Redis is optional in local development.
-
