@@ -81,7 +81,7 @@ export const ProductsPage = ({
             value={q}
             onChange={(event) => setQ(event.target.value)}
             placeholder="Search by name, SKU, category"
-            className="w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm md:max-w-lg"
+            className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm md:max-w-lg"
           />
           <div className="hide-scrollbar flex gap-2 overflow-x-auto whitespace-nowrap pb-1">
             {categories.map((item) => (
