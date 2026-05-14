@@ -56,7 +56,7 @@ export const InventoryPage = ({
 
   return (
     <div className="space-y-5">
-      <div className="rounded-3xl border border-amber-200 bg-gradient-to-r from-amber-50 via-white to-orange-50 p-4">
+      <div className="rounded-3xl border border-amber-300 bg-gradient-to-r from-amber-50 via-white to-orange-50 p-4">
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-amber-700">Low Stock Alerts</p>
         <p className="mt-2 text-sm font-medium">
           {lowStocks.length ? lowStocks.map((item) => `${item.name} (${item.quantity})`).join(", ") : "No low stock items."}
