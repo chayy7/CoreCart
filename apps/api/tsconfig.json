@@ -13,5 +13,8 @@
     "resolveJsonModule": true,
     "types": ["node"]
   },
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json"
+  },
   "include": ["src"]
 }
