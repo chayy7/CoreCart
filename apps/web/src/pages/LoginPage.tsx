@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { isAxiosError } from "axios";
 import { useAuth } from "../context/AuthContext";
 
+const apiBaseUrl = import.meta.env.VITE_API_URL ?? "http://localhost:4000/api";
+
 export const LoginPage = () => {
   const { login, loading } = useAuth();
   const navigate = useNavigate();
@@ -19,7 +21,7 @@ export const LoginPage = () => {
     } catch (error) {
       if (isAxiosError(error)) {
         if (!error.response) {
-          setError("Cannot reach API server at localhost:4000. Start backend first.");
+          setError(`Cannot reach API server at ${apiBaseUrl}. Start backend first.`);
           return;
         }
 

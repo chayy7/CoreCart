@@ -11,6 +11,8 @@
     "dev": "concurrently \"npm run dev -w apps/api\" \"npm run dev -w apps/web\"",
     "dev:api": "npm run dev -w apps/api",
     "dev:web": "npm run dev -w apps/web",
+    "dev:chrome": "start chrome http://localhost:5174 && npm run dev",
+    "dev:edge": "start \"\" \"microsoft-edge:http://localhost:5174\" && npm run dev",
     "build": "npm run build -w apps/api && npm run build -w apps/web",
     "test": "npm run test -w apps/api",
     "seed": "npm run seed -w apps/api"

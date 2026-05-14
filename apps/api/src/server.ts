@@ -2,6 +2,7 @@ import cors from "cors";
 import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
+import { NextFunction, Request, Response } from "express";
 import { authRouter } from "./routes/authRoutes.js";
 import { dashboardRouter } from "./routes/dashboardRoutes.js";
 import { inventoryRouter } from "./routes/inventoryRoutes.js";
@@ -39,6 +40,20 @@ app.get("/health", (_req, res) => {
   });
 });
 
+const requireDbConnection = (_req: Request, res: Response, next: NextFunction) => {
+  const db = getDbHealth();
+  if (db.state === "connected") {
+    next();
+    return;
+  }
+
+  res.status(503).json({
+    message:
+      "Database is not connected. Start MongoDB on 127.0.0.1:27017 or update MONGO_URI to a reachable Atlas cluster."
+  });
+};
+
+app.use("/api", requireDbConnection);
 app.use("/api/auth", authRouter);
 app.use("/api/products", productRouter);
 app.use("/api/inventory", inventoryRouter);

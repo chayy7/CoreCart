@@ -6,16 +6,9 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     port: 5174,
+    open: true,
     hmr: {
       overlay: false
-    },
-    watch: {
-      usePolling: true,
-      interval: 200,
-      awaitWriteFinish: {
-        stabilityThreshold: 300,
-        pollInterval: 100
-      }
     }
   }
 });

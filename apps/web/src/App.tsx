@@ -15,13 +15,15 @@ import { ProductsPage } from "./pages/ProductsPage";
 import type { InventoryRow, Order, Product, Store } from "./types";
 
 const PrivateApp = () => {
-  const { user } = useAuth();
+  const { user, logout } = useAuth();
   const [stores, setStores] = useState<Store[]>([]);
   const [selectedStore, setSelectedStore] = useState("");
   const [inventory, setInventory] = useState<InventoryRow[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
   const [orders, setOrders] = useState<Order[]>([]);
   const [dataError, setDataError] = useState("");
+  const [bootstrapping, setBootstrapping] = useState(true);
+  const [bootstrapTimedOut, setBootstrapTimedOut] = useState(false);
 
   const canManageInventory = user?.role === "admin" || user?.role === "manager";
   const canViewDashboard = user?.role === "admin" || user?.role === "manager";
@@ -54,10 +56,18 @@ const PrivateApp = () => {
       setSelectedStore(nextSelectedStore);
     } catch (error) {
       if (isAxiosError(error)) {
+        if (error.response?.status === 401) {
+          logout();
+          return;
+        }
         setDataError((error.response?.data as { message?: string } | undefined)?.message || "Failed to load stores.");
       } else {
         setDataError("Failed to load stores.");
       }
+      setStores([]);
+      setSelectedStore("");
+    } finally {
+      setBootstrapping(false);
     }
   };
 
@@ -114,6 +124,23 @@ const PrivateApp = () => {
   }, [user?.id]);
 
   useEffect(() => {
+    if (!bootstrapping) {
+      setBootstrapTimedOut(false);
+      return;
+    }
+
+    const timer = window.setTimeout(() => {
+      setBootstrapTimedOut(true);
+      setBootstrapping(false);
+      if (!dataError) {
+        setDataError("App bootstrap timed out. Please retry.");
+      }
+    }, 12000);
+
+    return () => window.clearTimeout(timer);
+  }, [bootstrapping, dataError]);
+
+  useEffect(() => {
     loadDataForStore(selectedStore).catch(() => undefined);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedStore]);
@@ -167,8 +194,46 @@ const PrivateApp = () => {
 
   const layoutReady = useMemo(() => stores.length > 0 && !!selectedStore, [stores, selectedStore]);
 
+  if (bootstrapping) {
+    return (
+      <div className="grid min-h-screen place-items-center text-sm font-semibold">
+        Loading CoreCart...
+      </div>
+    );
+  }
+
   if (!layoutReady) {
-    return <div className="grid min-h-screen place-items-center text-sm font-semibold">Loading CoreCart...</div>;
+    return (
+      <div className="grid min-h-screen place-items-center bg-slate-50 p-6">
+        <div className="w-full max-w-xl rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="text-xl font-black text-slate-900">Unable to load store data</h2>
+          <p className="mt-2 text-sm text-slate-700">
+            {dataError || "No stores found. Run seed data and try again."}
+          </p>
+          {bootstrapTimedOut && (
+            <p className="mt-2 text-xs text-amber-700">
+              The initial API request did not finish in time.
+            </p>
+          )}
+          <div className="mt-4 flex gap-3">
+            <button
+              type="button"
+              onClick={() => window.location.reload()}
+              className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800"
+            >
+              Retry
+            </button>
+            <button
+              type="button"
+              onClick={logout}
+              className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100"
+            >
+              Sign out
+            </button>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
