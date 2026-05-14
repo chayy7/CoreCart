@@ -26,7 +26,7 @@ export const DashboardPage = ({
   if (!canView) {
     return (
       <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-        <p className="text-sm font-semibold">Dashboard analytics is available for manager/admin roles.</p>
+        <p className="text-sm font-semibold">Dashboard analytics is available for Manager/Admin roles.</p>
       </div>
     );
   }
