@@ -47,7 +47,7 @@ export const Layout = ({
             ))}
           </nav>
 
-          <div className="mt-8 rounded-2xl bg-slate-900 p-4 text-slate-100">
+          <div className="mt-8 rounded-2xl bg-slate-900 p-5 text-slate-100">
             <p className="text-xs uppercase tracking-[0.16em] text-slate-300">Signed in as</p>
             <p className="mt-1 font-semibold">{user?.name}</p>
             <p className="text-xs text-slate-300">{user?.role}</p>
